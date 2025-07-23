@@ -1,7 +1,8 @@
-export default function Card({ title, children }) {
+import React from "react";
+
+export default function Card({ children }) {
   return (
-    <div className="border rounded shadow-md p-4 bg-white dark:bg-gray-700">
-      {title && <h2 className="text-xl font-bold mb-2">{title}</h2>}
+    <div className="bg-white dark:bg-gray-800 shadow rounded p-4 mb-4">
       {children}
     </div>
   );

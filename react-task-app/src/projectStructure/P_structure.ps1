@@ -1,0 +1,19 @@
+src/
+  components/
+    Button.jsx
+    Card.jsx
+    Navbar.jsx
+    Footer.jsx
+  layout/
+    Layout.jsx
+  pages/
+    Home.jsx
+    Tasks.jsx
+    Posts.jsx
+  hooks/
+    useLocalStorage.js
+  context/
+    ThemeContext.jsx
+  App.jsx
+  main.jsx
+  index.css
